@@ -21,6 +21,8 @@ A Xposed module for One Plus 5T Oxygen OS, Aweme, HuoShan, Aweme Lite,  Tik Tok,
 # 0x0. Get Ready
 由於這是一個基於Xposed框架的模塊, 需要手機安裝[Xposed](https://repo.xposed.info/module/de.robv.android.xposed.installer "Xposed Repo")框架, [EDXposed](https://github.com/ElderDrivers/EdXposed "GitHub")框架, [太極](https://taichi.cool/ "Official")或者其他Hook框架才可以使用本模塊
 
+手機Root及框架安裝請自行Google
+
 # 0x1. 要妳命三千Xposed模組
 # 0x1. Install 3000Xposed Module
 
@@ -29,10 +31,17 @@ A Xposed module for One Plus 5T Oxygen OS, Aweme, HuoShan, Aweme Lite,  Tik Tok,
 
 [網盤](https://590m.com/dir/16731109-38525057-903954 "城通網盤")
 
-[Telegram](https://t.me/kwaichingxposed "Join in")等聊天群組
+[Telegram](https://t.me/kwaichingxposed "Join in"), [QQ](https://jq.qq.com/?_wv=1027&k=nnSu9wfL "Join in")群等[聊天群組](https://jq.qq.com/?_wv=1027&k=PHRVXbax "Join in")有上傳
 
 ###### 2. 設置 
-根據需要進入軟件設置
+根據需要進入軟件設置, 一般設置重啟APP生效
+對於一些系統軟件或常駐後台的軟件如相機, 微信, 需要強制停止相機或微信設置才會生效
+對於安卓9及以上系統, 需要插件所Hook的軟件獲取存儲權限, 插件更改設置才會生效, 如Tik Tok, Tik Tok未獲取存儲權限之前, 默認地區為越南, 獲取存儲權限之後更改地區設置才會生效
+對於非一加系統, 請在設置裡面關閉一加系統專屬功能, 否則相關軟件可能發生錯誤
+如果功能異常請關閉相關軟件相關開關, 否則可能會影響其他功能(建議核對軟件所支持的版本, 網盤有下載鏈接)
+經測試模塊在某些系統下可能不會生效, 如RedMi Note 4X 官方 MIUI系統 + Edxposed, Mi5S Plus 官方MIUI系統 + Edxposed, Lineage OS系統下正常使用
+某些功能在特定框架下不會生效甚至發生錯誤, 建議關閉相關功能
+軟件使用異常問題可在聊天室反饋, 請附帶手機相關信息, 如: OnePlus 7Pro - OOS - Android 10 - Edxposed, 有日誌可以上傳日誌
 
 # 0x2. 功能
 ###### 01. 抖音: 無水印下載, 去廣告
@@ -81,8 +90,8 @@ A Xposed module for One Plus 5T Oxygen OS, Aweme, HuoShan, Aweme Lite,  Tik Tok,
 # 0x3. Support Versions
 ###### 01. [抖音(Aweme)](https://72k.us/dir/16731109-35961791-da1868 "Download"): 
 V2.7.0 || V2.8.0 || V2.9.0 || V3.0.0 || V3.1.0 || V3.2.0 || V3.2.1 || V3.3.0 || V3.4.0 || V3.5.0 || V3.6.0 || V3.7.0 || V3.8.0 || V3.9.0 || V4.0.0 || V4.2.0 || V4.2.1 || V4.3.0 || V4.3.1 || V4.3.2 || V4.3.3 || V5.0.0 || V5.1.0 || V5.1.1 || V5.2.0 || 5.3.0 || V5.5.0 || V5.5.1 || V5.7.0 || V5.8.0 || V5.9.0 || V6.0.0 || V6.1.0 || V6.2.0 || V6.3.0 || V6.5.0 || V6.6.0 || V6.7.0 || V6.8.0 || V6.9.0 || V7.0.0 || V7.0.1 || V7.1.0 || V7.2.0 || V7.2.1 || V7.3.0 || V7.4.0 || V7.5.0 || V7.7.0 || V7.8.0 || V7.9.0 || V8.0.0 || V8.1.0 || V8.1.1 || V8.2.0 || V8.3.0 || V8.4.0 || V8.5.0 || V8.6.0 || V8.7.0 || V8.8.0 || V9.0.0 || V9.1.0 || V9.1.1 || V9.2.0 || V9.4.0 || V9.5.0 || V9.6.0 || V9.7.0 || V9.7.2 || V9.8.1 || V9.9.0 || V10.0.0 || V10.1.0 || V10.2.0 || V10.4.0 || V10.5.0 || V10.6.0 || V10.7.0 || V10.8.0 || V10.9.0 || V11.0.0
-新的版本也有可能支持, 如果不能用, 使用以上版本或群里反饋
-Newer vision may be supported, if not, use these versions
+[新的版本也有可能支持, 如果不能用, 使用以上版本或群里反饋]
+(Newer vision may be supported, if not, use these versions)
 
 ###### 02. [抖音極速版(Aweme Lite)](https://590m.com/dir/16731109-38525152-f76966 "Download"): 
 V10.0.0 || V9.9.0 || V9.8.5 || V9.8.0 || V9.7.0
