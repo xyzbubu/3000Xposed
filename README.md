@@ -19,36 +19,36 @@ A Xposed module for One Plus 5T Oxygen OS, Aweme, HuoShan, Aweme Lite,  Tik Tok,
 
 # 0x0. 框架
 # 0x0. Get Ready
-由於這是一個基於Xposed框架的模塊, 需要手機安裝[Xposed](https://repo.xposed.info/module/de.robv.android.xposed.installer "Xposed Repo")框架, [EDXposed](https://github.com/ElderDrivers/EdXposed "GitHub")框架, [太極](https://taichi.cool/ "Official")或者其他Hook框架才可以使用本模塊
+這是一個基於Xposed框架的模塊, 需要手機安裝[Xposed](https://repo.xposed.info/module/de.robv.android.xposed.installer "Xposed Repo")框架, [EDXposed](https://github.com/ElderDrivers/EdXposed "GitHub")框架, [太極](https://taichi.cool/ "Official")或者其他Hook框架才可以使用本模塊
 
 手機Root及框架安裝請自行Google
 
 # 0x1. 要妳命三千Xposed模組
 # 0x1. Install 3000Xposed Module
 
-###### 1. 下載 
+##### 1. 下載 
 [Xposed Repo](https://repo.xposed.info/module/cn.kwaiching.hook "Xposed Repo")
 
 [網盤](https://590m.com/dir/16731109-38525057-903954 "城通網盤")
 
 [Telegram](https://t.me/kwaichingxposed "Join in"), [QQ](https://jq.qq.com/?_wv=1027&k=nnSu9wfL "Join in")群等[聊天群組](https://jq.qq.com/?_wv=1027&k=PHRVXbax "Join in")有上傳
 
-###### 2. 設置 
-根據需要進入軟件設置, 一般設置重啟APP生效
+##### 2. 設置 
+###### -1. 根據需要進入軟件設置, 一般設置重啟APP生效
 
-對於一些系統軟件或常駐後台的軟件如相機, 微信, 需要強制停止相機或微信設置才會生效
+###### -2.一些系統軟件或常駐後台的軟件如相機, 微信, 需要強制停止相機或微信設置才會生效
 
-對於安卓9及以上系統, 需要插件所Hook的軟件獲取存儲權限, 插件更改設置才會生效, 如Tik Tok, Tik Tok未獲取存儲權限之前, 默認地區為越南, 獲取存儲權限之後更改地區設置才會生效
+###### -3.安卓9及以上系統, 需要插件所Hook的軟件獲取存儲權限, 插件更改設置才會生效, 如Tik Tok, Tik Tok未獲取存儲權限之前, 默認地區為越南, 獲取存儲權限之後更改地區設置才會生效
 
-對於非一加系統, 請在設置裡面關閉一加系統專屬功能, 否則相關軟件可能發生錯誤
+###### -4.非一加系統, 請在設置裡面關閉一加系統專屬功能, 否則相關軟件可能發生錯誤
 
-如果功能異常請關閉相關軟件相關開關, 否則可能會影響其他功能(建議核對軟件所支持的版本, 網盤有下載鏈接)
+###### -5.如果功能異常請關閉相關軟件相關開關, 否則可能會影響其他功能(建議核對軟件所支持的版本, 網盤有下載鏈接)
 
-經測試模塊在某些系統下可能不會生效, 如RedMi Note 4X 官方 MIUI系統 + Edxposed, Mi5S Plus 官方MIUI系統 + Edxposed, Lineage OS系統下正常使用
+###### -6.經測試模塊在某些系統下可能不會生效, 如RedMi Note 4X 官方 MIUI系統 + Edxposed, Mi5S Plus 官方MIUI系統 + Edxposed, Lineage OS系統下正常使用
 
-某些功能在特定框架下不會生效甚至發生錯誤, 建議關閉相關功能
+###### -7.某些功能在特定框架下不會生效甚至發生錯誤, 建議關閉相關功能
 
-軟件使用異常問題可在聊天室反饋, 請附帶手機相關信息, 如: OnePlus 7Pro - OOS - Android 10 - Edxposed, 有日誌可以上傳日誌
+###### -8.軟件使用異常問題可在聊天室反饋, 請附帶手機相關信息, 如: OnePlus 7Pro - OOS - Android 10 - Edxposed, 有日誌可以上傳日誌
 
 # 0x2. 功能
 ###### 01. 抖音: 無水印下載, 去廣告
