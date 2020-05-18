@@ -19,7 +19,7 @@ A Xposed module for One Plus 5T Oxygen OS, Aweme, HuoShan, Aweme Lite,  Tik Tok,
 
 # 0x0. 框架
 # 0x0. Get Ready
-	由於這是一個基於Xposed框架的模塊, 需要手機安裝[Xposed](https://repo.xposed.info/module/de.robv.android.xposed.installer "Xposed Repo")框架, [EDXposed](https://github.com/ElderDrivers/EdXposed "GitHub")框架, [太極](https://taichi.cool/ "Official")或者其他Hook框架才可以使用本模塊
+由於這是一個基於Xposed框架的模塊, 需要手機安裝[Xposed](https://repo.xposed.info/module/de.robv.android.xposed.installer "Xposed Repo")框架, [EDXposed](https://github.com/ElderDrivers/EdXposed "GitHub")框架, [太極](https://taichi.cool/ "Official")或者其他Hook框架才可以使用本模塊
 
 # 0x1. 要妳命三千Xposed模組
 # 0x1. Install 3000Xposed Module
